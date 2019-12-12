@@ -1,4 +1,14 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+ion-header {
+  height: 120px;
+}
+ion-toolbar {
+    --background: url('../../assets/logo-suseViagensADM.png') no-repeat center center / cover;
+    -webkit-background-size: cover;
+    color: white;
+    font-family: fantasy;  
+    height: 120px;
+  }
+
+ion-item {
+  --background: cornflowerblue;
 }

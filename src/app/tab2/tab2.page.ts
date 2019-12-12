@@ -6,7 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['tab2.page.scss']
 })
 export class Tab2Page {
+  category
+  constructor() {
+    this.category = 'viagens'
+  }
 
-  constructor() {}
+  segmentChanged(ev: any) {
+    const valorSegment = ev.detail.value
+    this.category = valorSegment
+    console.log('Segment changed', this.category);
+  }
 
 }
